@@ -11,6 +11,30 @@ public abstract class Personagem {
     protected int hp;
     protected int ataqueBase;
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public void setHp(int hp) {
+        this.hp = hp;
+    }
+
+    public int getAtaqueBase() {
+        return ataqueBase;
+    }
+
+    public void setAtaqueBase(int ataqueBase) {
+        this.ataqueBase = ataqueBase;
+    }
+
     /**
      * Construtor da classe Personagem.
      * Inicializa os atributos básicos do personagem.
